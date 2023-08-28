@@ -1,14 +1,10 @@
-/**
-* Template Name: Day
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -40,6 +36,13 @@ h6 {
 
 .bx{
   color: rgb(23, 23, 109);
+}
+.bx:hover{
+  color:goldenrod
+}
+
+i:hover{
+  color:goldenrod
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -92,7 +95,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #cc1616;
+  border: 6px solid #22085e;
  
   border-radius: 50%;
   width: 60px;
@@ -519,6 +522,18 @@ li{
     line-height: 24px;
     margin-bottom: 30px;
   }
+  #icones ul{
+    margin-right: 8%;
+    font-size: 10px;
+    gap:2%
+    
+  }
+  i{
+     font-size: 25px;
+  }
+  #hero{
+    height: 65vh;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -688,6 +703,18 @@ section {
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
+  }
+  #icones ul{
+    margin-right: 8%;
+    font-size: 10px;
+    gap:2%
+    
+  }
+  i{
+     font-size: 25px;
+  }
+  #hero{
+    height: 65vh;
   }
 }
 
@@ -1466,4 +1493,66 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+  .form-control{
+    width: 200px !important;
+   
+  
+  }
+  #botaofechar{
+   
+    margin-bottom: 10% !important;
+  }
+
+  .logowintxt{
+    display: none;
+  }
 }
+
+
+
+.modal-back {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 10;
+  display: none;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+.modal-back.toggled {
+  display: block;
+}
+
+.modal {
+  background-color: transparent;
+
+  padding: 20px;
+  z-index: 20;
+  border-radius: 5px;
+  border: 1px solid #424242;
+  position: fixed;
+  top: 50%;
+  margin-left: auto;
+}
+.modal label {
+  font-size: 15px;
+  font-weight: bold;
+}
+.modal a.close {
+  float: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.form-control{
+  width:79%  !important;
+  margin-left: 10%;
+
+}
+label{
+  margin-left: 15%;
+}
+
+
+

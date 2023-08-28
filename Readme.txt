@@ -1,1 +1,1 @@
-Projeto Lp Winmed
+Lp Winmed
